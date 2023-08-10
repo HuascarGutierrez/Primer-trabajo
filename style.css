@@ -1,0 +1,74 @@
+body{
+    background-image:url('fondo.jpg');
+    background-size: cover;
+}
+.cuadro{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px; 
+    height: 300px; 
+    border: 7px;
+    border-radius: 30px 30px 30px 30px;
+    background-color: rgb(44,47,51);
+    display: flex;
+    flex-direction:column;
+    justify-content:flex-end;
+    align-items:center;
+}
+.cuadro h1 {
+    margin: 15px 0; 
+}
+.cuadro p {
+    margin: 5px 25px 15px; 
+}
+.cuadro button{
+    margin: 0 5px;
+}
+.nombre{
+    color:whitesmoke;
+    font-size:xx-large;
+    font-weight: bolder;
+}
+.texto{
+    color:whitesmoke;
+    font-size:larger;
+}
+.cuadro::after{
+    content: "";
+    background-image: url('gato.jpeg');
+    background-position: center;
+    background-size:cover;
+    position: fixed;
+    top: -25%;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.botones{
+    width:auto; 
+    height: 50px; 
+    margin-bottom: 10px;
+}
+.boton-1{
+    width: 250px; 
+    height: 45px; 
+    font-family: fantasy;
+    font-size: larger;
+    color: #ffff;
+    background-color: rgb(114,137,218);
+    border-radius: 10px;
+    border-color: rgb(114,137,218);
+    cursor: pointer;
+}
+.boton-2{
+    width: 75px; 
+    height: 45px; 
+    font-family: fantasy;
+    font-size: larger;
+    color: 	#23272a;
+    background-color: 	#99aab5;
+    border-radius: 10px;
+    cursor: pointer;
+}
